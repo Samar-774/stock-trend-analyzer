@@ -48,9 +48,8 @@ streamlit run app.py
 **Note for Windows users:** Prophet's Stan backend can fail with a `DLL not found` error (Windows exit code `0xC0000135`) due to missing Intel TBB runtime libraries. If you hit this, install via conda instead (`conda install -c conda-forge prophet`) and ensure the TBB DLLs from the conda environment's `Library/bin` are discoverable on PATH or copied alongside `prophet/stan_model/`.
 
 ## Project structure
-```
-```
-stock-trend-analyzer/
+```text
+stock-trend-analyzer/ 
 ├── app.py                 # Streamlit UI
 ├── src/
 │   ├── data_fetcher.py    # yfinance data pulling
@@ -60,7 +59,7 @@ stock-trend-analyzer/
 ├── runtime.txt
 └── README.md
 ```
-```
+
 
 ## Possible future improvements
 
